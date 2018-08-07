@@ -1,0 +1,11 @@
+.backicon{
+	height: 75px;
+	width: auto;
+	float: left;
+}
+#back{
+	border: 2px #CCCCCC solid;
+	background-color: #eeeeee;
+	width: 90px;
+	float: left;
+}

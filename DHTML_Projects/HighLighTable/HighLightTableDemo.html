@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="HighLightDemoCssSet.css"/>
+		<script type="text/javascript" src="HighLightTable.js"></script>
+
+		<style type="text/css">
+			th a:link,
+			th a:visited {
+				color: #000000;
+				text-decoration: none;
+			}
+			
+			th a:hover {
+				color: #0066FF;
+				text-decoration: none;
+				font-size: 20px;
+			}
+			html{
+				background-color: #EEEEEE;
+			}
+		</style>
+		<script type="text/javascript">
+			var flag = true;
+			
+			function sortTable(node) {
+				var oTableNode = node.parentNode.parentNode;
+				
+				var trArray = new Array();
+				for (var i = 1; i < oTableNode.rows.length; i++) {
+					trArray[i-1] = oTableNode.rows[i];
+				}
+				
+				var iCol = indexOfNode(node);
+
+				for(var i = 0; i < trArray.length; i++) {
+					for(var j = i + 1; j < trArray.length; j++) {
+						if(trArray[j].cells[iCol].innerHTML > trArray[i].cells[iCol].innerHTML) {
+							var temp = trArray[i];
+							trArray[i] = trArray[j];
+							trArray[j] = temp;
+//							alert(i + "--" + j);
+						}
+					}
+				}
+				
+				for (var i = 0; i < trArray.length; i++) {
+					if(flag){
+						oTableNode.appendChild(trArray[i]);
+					}else{
+						oTableNode.appendChild(trArray[trArray.length-1-i]);
+					}
+				}
+				flag=!flag;
+			}
+
+			function indexOfNode(node) {
+				var collCellNodes = node.parentNode.getElementsByTagName(node.tagName);
+				for(var i = 0; i < collCellNodes.length; i++) {
+					if(node == collCellNodes[i])
+						return i;
+				}
+				alert("Error of function indexOfNode!!!");
+			}
+		</script>
+	</head>
+
+	<body>
+		<div id="back" >
+			<a href="../../index.html">
+				<img class="backicon" src="../../pictures/backplane.png" alt="back" />
+			</a>
+		</div>
+		<div id="describe" class="describe">
+			<p>这是一个使用DHTML制作出来的简单高亮表格以及排序功能，点击或移动鼠标即可激活功能</p>
+		</div>
+		<table class="HighLightTable" id="test">
+			<tr>
+				<th>
+					<a href="javascript:void(0)" onclick="sortTable(this.parentNode)">语言</a>
+				</th>
+				<th>
+					<a href="javascript:void(0)" onclick="sortTable(this.parentNode)">年龄</a>
+				</th>
+				<th>
+					<a href="javascript:void(0)" onclick="sortTable(this.parentNode)">创始人</a>
+				</th>
+			</tr>
+			<tr>
+				<td>Java</td>
+				<td>23</td>
+				<td>James Gosling</td>
+			</tr>
+			<tr>
+				<td>C</td>
+				<td>46</td>
+				<td>Dennis MacAlistair Ritchie</td>
+			</tr>
+			<tr>
+				<td>Python</td>
+				<td>27</td>
+				<td>Guido van Rossum</td>
+			</tr>
+			<tr>
+				<td>PHP</td>
+				<td>23</td>
+				<td>Rasmus Lerdorf</td>
+			</tr>
+			<tr>
+				<td>Go</td>
+				<td>19</td>
+				<td>Google</td>
+			</tr>
+			<tr>
+				<td>JavaScript</td>
+				<td>26</td>
+				<td>Brendan Eich</td>
+			</tr>
+			<tr>
+				<td>Ruby</td>
+				<td>23</td>
+				<td>松本行弘</td>
+			</tr>
+		</table>
+	</body>
+
+</html>
