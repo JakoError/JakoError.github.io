@@ -80,17 +80,16 @@ analytics:
 
 # Site Author
 author:
-  name             : "Zhexian Zhou (JakoError)"
+  name             : "Zhexian Zhou"
   avatar           : "profile.png"
   bio              : "Stay determined"
   location         : "Chengdu China"
   employer         :
   pubmed           :
   googlescholar    :
-  blog             : "http://www.jakoblog.cn/blog/"
   email            : "jakozhou@foxmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              :
+  uri              : "http://www.jakoblog.cn/blog/"
   bitbucket        :
   codepen          :
   dribbble         :
