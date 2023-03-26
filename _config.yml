@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Zhexian / Zhou"
+title                    : "Zhexian Zhou / 周哲贤"
 title_separator          : "-"
 name                     : &name "Zhexian Zhou"
 description              : &description "personal description"
@@ -87,7 +87,7 @@ author:
   employer         :
   pubmed           :
   googlescholar    :
-  personal_blog    : "http://www.jakoblog.cn/blog/"
+  blog             : "http://www.jakoblog.cn/blog/"
   email            : "jakozhou@foxmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
