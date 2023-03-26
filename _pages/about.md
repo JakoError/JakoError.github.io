@@ -14,11 +14,11 @@ I'm Zhexian Zhou, or you can call me Jako, an undergraduate student at the [Univ
 
 Projects
 ======
-- **Compiler Toolkits** of SysY programming language ( Github: https://github.com/JakoError/CompileStudy )
-- CV: **Semantic Segmentation** Research and Implementation* (Github: https://github.com/JakoError/SemanticSegmentationTutorial )
+- **Compiler Toolkits** of SysY programming language ( [Github JakoError CompileStudy](https://github.com/JakoError/CompileStudy) )
+- CV: **Semantic Segmentation** Research and Implementation* ( [Github JakoError SemanticSegmentationTutorial](https://github.com/JakoError/SemanticSegmentationTutorial) )
 - MatSAR: C++-based **Math Toolkits** Development
-- DiaryInUESTC: **Android** Diary App Development (Github: https://github.com/JakoError/DiaryInUESTC )
-- Client-Server EZ C++ **Database Manage System** (Github: https://github.com/JakoError/cppDBMS )
+- DiaryInUESTC: **Android** Diary App Development ( [Github JakoError DiaryInUESTC](https://github.com/JakoError/DiaryInUESTC) )
+- Client-Server C++ Database Manage System ( [Github JakoError cppDBMS](https://github.com/JakoError/cppDBMS) )
 - ---working--- Memristor In-memory Computing
 - ---working--- Diffusion
 - ---working--- Pathological Image Classification
@@ -27,10 +27,10 @@ Thanks
 ------
 Thanks to most of the teachers in my International Elite Special Education Plan, who always provided insightful knowledge and ideas for diverse experiments. These inspirations give me the energy to spend time on meaningful projects and research. 
 
-Mostly, I need to thank my director--Professor: [Yongbin Yu](https://ieeexplore.ieee.org/author/37879579100), who helped me with my research projects. 
+Mostly, I need to thank my director--Professor [Yongbin Yu](https://ieeexplore.ieee.org/author/37879579100), who helped me with my research projects. 
 
 Lastly, I appreciate the coworkers (postgraduate and Doctoral students) in my laboratory who support me in many ways, and they are so lovely :smile: , always providing me with good ideas.
 
 For more info.
 ------
-For more info about me, browse my blog ==> [JakoBlog](http://www.jakoblog.cn/blog/) hope something in there may help you somehow.
+For more info about me, browse my blog ==> [JakoBlog](http://www.jakoblog.cn/blog/) hope something in there may help you somehow. Or email me.
