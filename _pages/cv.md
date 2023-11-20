@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-I'm sorry that I cannot provide further information. Email ME.
+I'm sorry that I cannot provide personal CV. Email ME for futher info.
