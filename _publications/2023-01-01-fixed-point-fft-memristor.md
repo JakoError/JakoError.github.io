@@ -1,6 +1,7 @@
 ---
 title: "Design of Fixed-point FFT Algorithm Based on Memristor"
 collection: publications
+category: conferences
 permalink: /publication/2023-01-01-fixed-point-fft-memristor
 date: 2023-01-01
 venue: 'CAIT 2023'

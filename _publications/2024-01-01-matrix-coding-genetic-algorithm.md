@@ -1,6 +1,7 @@
 ---
 title: "A Matrix Coding Genetic Algorithm Based on Memristor for Image Edge Detection"
 collection: publications
+category: conferences
 permalink: /publication/2024-01-01-matrix-coding-genetic-algorithm
 date: 2024-01-01
 venue: 'ICCIP 2023 (Proceedings 2024)'

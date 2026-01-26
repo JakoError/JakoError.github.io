@@ -1,6 +1,7 @@
 ---
 title: "KnowledgeSmith: Uncovering Knowledge Updating in LLMs with Model Editing and Unlearning"
 collection: publications
+category: conferences
 permalink: /publication/2026-01-01-knowledgesmith
 date: 2026-01-01
 venue: 'ICLR 2026'
