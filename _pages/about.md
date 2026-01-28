@@ -46,6 +46,12 @@ I’m **Zhexian (Jako) Zhou**, an M.S. student in **Artificial Intelligence Engi
   - Developed **Air-Infer** for streaming ROS2 messages and vision tensors over gRPC/HTTP: [github.com/JakoError/air-infer](https://github.com/JakoError/air-infer){:target="_blank"}.
 - **Researcher — 2D/3D Skeletonization (CMU AirLab)** — *Mar 2025 – Present*  
   - Proposed **feature-aware envelope EDT** with **geometry-adaptive neighborhood interpolation**, improving reduction rate **96.51% → 96.81%** while increasing reconstruction IoU **88.14% → 99.59%** (2D scikit-image blob dataset).
+  
+  <figure class="half">
+    <img src="/files/ours_2d_skeleton.png" alt="Ours: skeletonization result">
+    <img src="/files/ma_2d_skeleton.png" alt="MA (medial axis): skeletonization result">
+    <figcaption><strong>2D result comparison.</strong> Left: ours. Right: MA (medial axis).</figcaption>
+  </figure>
 - **Undergrad Researcher — Semi-supervised Semantic Segmentation (UESTC)** — *Oct 2022 – Jun 2024*  
   - Outstanding Thesis (UESTC 2024): dynamic confidence + edge-aware semi-supervised learning for sparse segmentation; mIoU **70.5 → 76.0 → 83.9 → 86.9** as supervision rate **10 → 20 → 50 → 100**.
   - Geometry-aware route-pattern recognition for tubular structures (e.g., vessels).
