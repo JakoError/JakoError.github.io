@@ -47,20 +47,24 @@ I’m **Zhexian (Jako) Zhou**, an M.S. student in **Artificial Intelligence Engi
 - **Researcher — 2D/3D Skeletonization (CMU AirLab)** — *Mar 2025 – Present*  
   - Proposed **feature-aware envelope EDT** with **geometry-adaptive neighborhood interpolation**, improving reduction rate **96.51% → 96.81%** while increasing reconstruction IoU **88.14% → 99.59%** (2D scikit-image blob dataset).
   
-  <figure class="half">
+  <figure>
     <img src="/files/ours_2d_skeleton.png" alt="Ours: skeletonization result">
-    <img src="/files/ma_2d_skeleton.png" alt="MA (medial axis): skeletonization result">
-    <figcaption><strong>2D result comparison.</strong> Left: ours. Right: MA (medial axis).</figcaption>
+    <figcaption><strong>Ours.</strong> Feature-aware envelope EDT + geometry-adaptive interpolation.</figcaption>
   </figure>
-- **Undergrad Researcher — Semi-supervised Semantic Segmentation (UESTC)** — *Oct 2022 – Jun 2024*  
+  
+  <figure>
+    <img src="/files/ma_2d_skeleton.png" alt="MA (medial axis): skeletonization result">
+    <figcaption><strong>MA (Medial Axis).</strong> Baseline method.</figcaption>
+  </figure>
+- **Undergrad Researcher — Semi-supervised Semantic Segmentation (UESTC)** — *Oct 2022 – Jun 2024*
   - Outstanding Thesis (UESTC 2024): dynamic confidence + edge-aware semi-supervised learning for sparse segmentation; mIoU **70.5 → 76.0 → 83.9 → 86.9** as supervision rate **10 → 20 → 50 → 100**.
   - Geometry-aware route-pattern recognition for tubular structures (e.g., vessels).
-- **Undergrad Researcher — Memristor Computing (UESTC)** — *Jan 2023 – Jun 2024*  
+- **Undergrad Researcher — Memristor Computing (UESTC)** — *Jan 2023 – Jun 2024*
   - Fixed-point FFT and evolutionary algorithms mapped to memristor crossbar circuits; validated via circuit-level simulations and noise-mitigation design.
-- **Researcher — Tibetan Language Automatic Recognition (UESTC & TibetU)** — *Jun 2022 – Jun 2024*  
+- **Researcher — Tibetan Language Automatic Recognition (UESTC & TibetU)** — *Jun 2022 – Jun 2024*
   - Built diffusion-based OCR/scene-text augmentation platform integrated into the project training pipeline.
   - MoST China 2030 Key R&D Program (No. 2022ZD0116100).
-- **Research Intern — NeRF for Surrounding-View Reconstruction (Peking University)** — *May 2023 – Aug 2023*  
+- **Research Intern — NeRF for Surrounding-View Reconstruction (Peking University)** — *May 2023 – Aug 2023*
   - Adapted NeRF for urban scenes; trained on KITTI and transferred to nuScenes for improved 3D rendering.
 
 ---
