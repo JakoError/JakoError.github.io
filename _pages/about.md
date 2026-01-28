@@ -16,8 +16,8 @@ I’m **Zhexian (Jako) Zhou**, an M.S. student in **Artificial Intelligence Engi
 - Website: [jakoerror.github.io](https://jakoerror.github.io/){:target="_blank"}
 
 **Downloads**
-- [CV (PDF)](/files/CV_ZhexianZhou20260126.pdf)
-- [Resume (PDF)](/files/Resume_ZhexianZhou20260126.pdf)
+- [CV (PDF)](/files/CV_ZhexianZhou.pdf)
+- [Resume (PDF)](/files/Resume_ZhexianZhou.pdf)
 
 ---
 
