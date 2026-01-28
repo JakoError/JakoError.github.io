@@ -15,6 +15,10 @@ I’m **Zhexian (Jako) Zhou**, an M.S. student in **Artificial Intelligence Engi
 - LinkedIn: [linkedin.com/in/zhexianzhou](https://linkedin.com/in/zhexianzhou){:target="_blank"}
 - Website: [jakoerror.github.io](https://jakoerror.github.io/){:target="_blank"}
 
+**Downloads**
+- [CV (PDF)](/files/CV_ZhexianZhou20260126.pdf)
+- [Resume (PDF)](/files/Resume_ZhexianZhou20260126.pdf)
+
 ---
 
 ## Education
